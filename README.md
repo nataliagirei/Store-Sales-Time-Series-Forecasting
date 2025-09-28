@@ -32,11 +32,11 @@ Data is available on Kaggle:
    - Analyzed the effect of promotions and holidays on sales.
 
 Visualisation examples
-![Sales distribution](Store-Sales-Time-Series-Forecasting/visualizations/sales_distribution.png)
+![Sales distribution](visualizations/sales_distribution.png)
 
-![Sales by day and category](Store-Sales-Time-Series-Forecasting/visualizations/sales_by_day_and_category.png)
+![Sales by day and category](visualizations/sales_by_day_and_category.png)
 
-![Share of zero sales](Store-Sales-Time-Series-Forecasting/visualizations/share_of_zero_sales.png)
+![Share of zero sales](visualizations/share_of_zero_sales.png)
 
 2. **Data Preprocessing**
    - Removed irrelevant columns.
@@ -52,7 +52,7 @@ Visualisation examples
    - Best model: `XGBoost` with RMSLE ≈ *0.47530*.
    - Kaggle submission RMSLE = ≈ *0.46641*
 
-![Kaggle submission result](Store-Sales-Time-Series-Forecasting/visualizations/kaggle_submission_result.png)
+![Kaggle submission result](visualizations/kaggle_submission_result.png)
 
    - Key insight: Feature engineering and single-model tuning yielded better results than complex ensembling.
 
@@ -67,7 +67,7 @@ Visualisation examples
 
 ## How to Run in Google Colab
 1. Open the Colab notebook:   
-   ![Colab notebook](Store_Sales_Time_Series_Forecasting.ipynb)
+   ![Colab notebook](notebook/Store_Sales_Time_Series_Forecasting.ipynb)
 
 2. Upload the original datasets from Kaggle:
 https://www.kaggle.com/competitions/store-sales-time-series-forecasting/data
